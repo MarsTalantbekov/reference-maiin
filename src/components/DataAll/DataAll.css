@@ -1,0 +1,34 @@
+#dataAll {
+    padding: 50px 0 50px 0;
+    background: #a0d6fa;
+  }
+
+.data-list {
+    padding-top: 40px;
+}
+
+.data-all__labels label {
+    background-color: rgb(25, 85, 109);
+}
+
+
+.charts {
+    width: 100%;
+}
+
+.pie-chart {
+    width: 70%;
+    margin: auto;
+    padding-bottom: 10%;
+}
+
+
+.saveBtn button {
+    padding: 30px;
+    background: rgb(62, 102, 224);
+    transition: 0.3s;
+}
+.data-diogram button:hover {
+    background-color: #fff;
+    color: #000;
+}

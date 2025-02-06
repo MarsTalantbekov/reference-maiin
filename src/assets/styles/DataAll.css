@@ -1,0 +1,60 @@
+#dataAll {
+    padding: 50px 0 50px 0;
+    /* height: 100vh; */
+    background: #a0d6fa;
+
+  }
+
+  .table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+  }
+  
+  .styled-table-horizontal {
+    width: 100%;
+    max-width: 1200px;
+    border-collapse: collapse;
+    font-size: 16px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto;
+  }
+  
+  .styled-table-horizontal thead tr {
+    background-color: #34495e;
+    color: #ffffff;
+    /* color: #19556d; */
+  }
+  
+  .styled-table-horizontal th,
+  .styled-table-horizontal td {
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .styled-table-horizontal tbody tr:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+  }
+  
+  .table-input {
+    width: 98%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+    margin-left: -8px;
+  }
+  
+  .table-input:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+  }
+  
+  

@@ -1,0 +1,67 @@
+#admin {
+  padding: 60px 0;
+  h1 {
+    text-align: center;
+  }
+  .admin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    input {
+      padding: 10px;
+      width: 400px;
+      font-size: 20px;
+      border-radius: 8px;
+      outline: none;
+      border: 3px solid black;
+      margin: 10px 0;
+    }
+    button {
+      padding: 10px 40px;
+      font-size: 20px;
+      border-radius: 10px;
+      background: rgb(255, 5, 5);
+      // background: rgb(42, 194, 18);
+      color: white;
+      font-weight: 700;
+      margin-bottom: 40px;
+      border: none;
+      cursor: pointer;
+    }
+  }
+  .table {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    thead {
+      tr {
+        height: 40px;
+        // background: #000;
+        background: rgb(62, 102, 224);
+        color: white;
+      }
+    }
+    tbody {
+      tr {
+        height: 40px;
+        background: #000;
+        color: white;
+        td {
+          font-weight: 600;
+        }
+        button {
+          font-size: 14px;
+          padding: 5px 10px;
+          background: red;
+          border-radius: 5px;
+          border: none;
+          color: white;
+          font-weight: 700;
+          letter-spacing: 1px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

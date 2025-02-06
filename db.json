@@ -1,0 +1,123 @@
+{
+  "posts": [
+    {
+      "dataWorker": "Талантбек уулу Марс",
+      "dataReference": "12",
+      "dataPost": "89",
+      "dataTreb": "08",
+      "dataCard": "37",
+      "dataActual": "331",
+      "dataReest": "39",
+      "dataPrekr": "38",
+      "dataAdt": "2",
+      "dataIstreb": "0",
+      "timestamp": "22.01.2025 16:45:16",
+      "id": 1
+    },
+    {
+      "dataWorker": "Талантбеков Марс",
+      "dataReference": "12",
+      "dataPost": "1",
+      "dataTreb": "8",
+      "dataCard": "6",
+      "dataActual": "5",
+      "dataReest": "4",
+      "dataPrekr": "3",
+      "dataAdt": "8",
+      "dataIstreb": "11",
+      "timestamp": "04.02.2025 17:21:05",
+      "id": 2
+    },
+    {
+      "dataWorker": "Талантбеков Марс",
+      "dataReference": "0",
+      "dataPost": "9",
+      "dataTreb": "8",
+      "dataCard": "6",
+      "dataActual": "5",
+      "dataReest": "14",
+      "dataPrekr": "25",
+      "dataAdt": "7",
+      "dataIstreb": "3",
+      "timestamp": "05.02.2025 10:51:47",
+      "id": 3
+    },
+    {
+      "dataWorker": "Акматова Мээрим",
+      "dataReference": "1",
+      "dataPost": "2",
+      "dataTreb": "8",
+      "dataCard": "7",
+      "dataActual": "6",
+      "dataReest": "4",
+      "dataPrekr": "4",
+      "dataAdt": "2",
+      "dataIstreb": "0",
+      "timestamp": "05.02.2025 10:59:56",
+      "id": 4
+    },
+    {
+      "dataWorker": "Талантбеков Марс",
+      "dataReference": "1",
+      "dataPost": "9",
+      "dataTreb": "2",
+      "dataCard": "7",
+      "dataActual": "6",
+      "dataReest": "8",
+      "dataPrekr": "3",
+      "dataAdt": "6",
+      "dataIstreb": "1",
+      "timestamp": "05.02.2025 15:09:53",
+      "id": 5
+    },
+    {
+      "dataWorker": "Талантбеков Марс",
+      "dataReference": "12",
+      "dataPost": "1",
+      "dataTreb": "1",
+      "dataCard": "1",
+      "dataActual": "1",
+      "dataReest": "1",
+      "dataPrekr": "1",
+      "dataAdt": "1",
+      "dataIstreb": "100",
+      "timestamp": "05.02.2025 15:38:47",
+      "id": 6
+    },
+    {
+      "dataWorker": "Саматов Эркин",
+      "dataReference": "22",
+      "dataPost": "1",
+      "dataTreb": "1",
+      "dataCard": "1",
+      "dataActual": "1",
+      "dataReest": "1",
+      "dataPrekr": "1",
+      "dataAdt": "1",
+      "dataIstreb": "1",
+      "timestamp": "05.02.2025 15:42:58",
+      "id": 7
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "users": [
+    {
+      "name": "Талантбеков Марс",
+      "pin": "110303090",
+      "password": "112",
+      "id": 2
+    },
+    {
+      "name": "Саматов Эркин",
+      "pin": "21010201000110",
+      "password": "111",
+      "id": 6
+    }
+  ]
+}

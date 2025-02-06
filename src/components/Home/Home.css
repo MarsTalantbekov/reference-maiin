@@ -1,0 +1,28 @@
+.home {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-main {
+    display: flex;
+}
+
+.home-logo {
+    margin: 0 25px;
+}
+
+.home-login {
+}
+
+.home-login h2 {
+    margin-bottom: 30px;
+    color: #000;
+}
+
+.home-btn__logIn {
+    transition: 0.3s;
+}
+
+.home-btn__logIn:hover {
+    background-color: green;
+}

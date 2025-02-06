@@ -1,0 +1,178 @@
+#dataSearch {
+  padding: 30px 0;
+  height: 100vh;
+}
+
+.dataSearch {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.btn-employee {
+  padding: 5px 20px;
+  font-size: 24px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background: rgb(62, 102, 224);
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  padding: 10px 5px 3px 10px;
+  transition: 0.3s;
+}
+.btn-employee:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.saveBtn {
+  display: flex;
+}
+
+.saveBtn button {
+  cursor: pointer;
+  margin: 40px auto;
+  padding: 15px;
+  border-radius: 12px;
+  border: none;
+  background-color: #2677e9;
+  font-size: 24px;
+  color: white;
+  font-weight: 600;
+}
+
+.dataSearch h1 {
+  color: red;
+}
+
+.exit {
+  display: flex;
+  margin-top: -150px;
+  gap: 20px;
+}
+
+.btn-exit {
+  padding: 5px 20px;
+  font-size: 24px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background: rgb(62, 102, 224);
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  padding: 10px 5px 3px 10px;
+  transition: 0.3s;
+}
+.btn-exit:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-admin {
+  padding: 5px 20px;
+  font-size: 24px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background: rgb(62, 102, 224);
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  padding: 10px 5px 3px 10px;
+  transition: 0.3s;
+}
+.btn-admin:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* MODAL */
+
+.modal {
+  width: 600px;
+  height: 100px;
+  border-radius: 24px;
+  background: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 200px auto;
+  gap: 30px;
+  padding: 30px 0;
+}
+
+
+.modal-btn {
+  display: flex;
+  gap: 80px;
+}
+
+.modal-btn button {
+  padding: 12px 34px;
+  border: none;
+  background: #2677e9;
+  color: white;
+  font-size: 24px;
+  border-radius: 12px;
+  font-family: "Courier New", Courier, monospace;
+  cursor: pointer;
+}
+
+/* DATA_ADMIN */
+
+.data-admin-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 160px;
+}
+
+.data-admin {
+  width: 597px;
+  height: 323px;
+  border-radius: 12px;
+  position: absolute;
+  margin: 150px auto;
+  /* background: white; */
+  background: #8fdcff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+
+.rem {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 44px;
+  cursor: pointer;
+}
+
+.data-admin input {
+  width: 340px;
+  padding: 12px 14px;
+  border: 2px solid #010049;
+  border-radius: 6px;
+}
+.data-admin button {
+  padding: 12px 94px;
+  border-radius: 8px;
+  background: rgb(62, 102, 224);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.data-admin button:hover {
+  background-color: #fff;
+  color: #000;
+}
