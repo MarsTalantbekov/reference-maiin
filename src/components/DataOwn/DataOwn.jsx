@@ -17,6 +17,7 @@ const DataOwn = () => {
   const [dataLabels, setDataLabels] = useState([]);
   const [isSaving, setIsSaving] = useState(false);
   const nav = useNavigate();
+  
 
   const location = useLocation();
   const userName = location.state?.name || "Белгисиз"; // Маалыматты алуу
@@ -181,15 +182,16 @@ const DataOwn = () => {
   
 
 
-  const totalPostsM1 = posts.reduce((acc, post) => acc + Number(post.dataInput1 || 0), 0);
-  const totalPostsM2 = posts.reduce((acc, post) => acc + Number(post.dataInput2 || 0), 0);
-  const totalPostsM3 = posts.reduce((acc, post) => acc + Number(post.dataInput3 || 0), 0);
-  const totalPostsM4 = posts.reduce((acc, post) => acc + Number(post.dataInput4 || 0), 0);
-  const totalPostsM5 = posts.reduce((acc, post) => acc + Number(post.dataInput5 || 0), 0);
-  const totalPostsM6 = posts.reduce((acc, post) => acc + Number(post.dataInput6 || 0), 0);
-  const totalPostsM7 = posts.reduce((acc, post) => acc + Number(post.dataInput7 || 0), 0);
-  const totalPostsM8 = posts.reduce((acc, post) => acc + Number(post.dataInput8 || 0), 0);
-  const totalPostsM9 = posts.reduce((acc, post) => acc + Number(post.dataInput9 || 0), 0);
+  // const totalPostsM1 = posts.reduce((acc, post) => acc + Number(post.dataInput1 || 0), 0);
+  // const totalPostsM2 = posts.reduce((acc, post) => acc + Number(post.dataInput2 || 0), 0);
+  // const totalPostsM3 = posts.reduce((acc, post) => acc + Number(post.dataInput3 || 0), 0);
+  // const totalPostsM4 = posts.reduce((acc, post) => acc + Number(post.dataInput4 || 0), 0);
+  // const totalPostsM5 = posts.reduce((acc, post) => acc + Number(post.dataInput5 || 0), 0);
+  // const totalPostsM6 = posts.reduce((acc, post) => acc + Number(post.dataInput6 || 0), 0);
+  // const totalPostsM7 = posts.reduce((acc, post) => acc + Number(post.dataInput7 || 0), 0);
+  // const totalPostsM8 = posts.reduce((acc, post) => acc + Number(post.dataInput8 || 0), 0);
+  // const totalPostsM9 = posts.reduce((acc, post) => acc + Number(post.dataInput9 || 0), 0);
+  const currentUser = JSON.parse(localStorage.getItem("user"));
 
   return (
     <div id="dataOwn">
